@@ -34,6 +34,8 @@ $(document).ready(function(){
         $('#reviewScore3').html(randomnumber); // Sets content of <div> to number
         randomnumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber); // Generates random number
         $('#reviewScore4').html(randomnumber); // Sets content of <div> to number
+        randomnumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber); // Generates random number
+        $('#reviewScore5').html(randomnumber); // Sets content of <div> to number
         return false; // Returns false just to tidy everything up
     
     
