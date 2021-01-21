@@ -1,39 +1,55 @@
-
-ul.nav a:hover { color: #adff !important; }
-
-.highlightable a:hover {
-  background-color: #fd9;
-  transition: background-color .2s;
+ul.nav a:hover {
+    color: #adff !important;
 }
 
-li{ list-style-type:none; text-indent:.3rem; cursor:pointer }
-#wrap li:hover,li.current{ background:#fd9 } li.current{ cursor:default }
+.highlightable a:hover {
+    background-color: #fd9;
+    transition: background-color .2s;
+}
+
+li {
+    list-style-type: none;
+    text-indent: .3rem;
+    cursor: pointer
+}
+
+#wrap li:hover,
+li.current {
+    background: #fd9
+}
+
+li.current {
+    cursor: default
+}
 
 body {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 h3 {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .row {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
+
 .row .row {
-  margin-top: 1rem;
-  margin-bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
+
 [class*="col-"] {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
 }
 
 hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
-
