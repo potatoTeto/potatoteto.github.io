@@ -21,4 +21,20 @@ $(document).ready(function(){
  }
      
 });
+    
+   
+    
+        var minNumber = 0; // The minimum number you want
+        var maxNumber = 10; // The maximum number you want
+        var randomnumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber); // Generates random number
+        $('#reviewScore').html(randomnumber); // Sets content of <div> to number
+        randomnumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber); // Generates random number
+        $('#reviewScore2').html(randomnumber); // Sets content of <div> to number
+        randomnumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber); // Generates random number
+        $('#reviewScore3').html(randomnumber); // Sets content of <div> to number
+        randomnumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber); // Generates random number
+        $('#reviewScore4').html(randomnumber); // Sets content of <div> to number
+        return false; // Returns false just to tidy everything up
+    
+    
 });
